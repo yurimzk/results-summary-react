@@ -5,7 +5,6 @@
 }
 
 :root {
-
   --light-red: hsl(0, 100%, 67%);
   --orangey-yellow: hsl(39, 100%, 56%);
   --green-teal: hsl(166, 100%, 37%);
@@ -18,4 +17,10 @@
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavender: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+  font-family: "Hanken Grotest", sans-serif;
+  font-size: 1.125rem;
+  background-color: var(--pale-blue);
 }
