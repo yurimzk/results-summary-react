@@ -9,7 +9,7 @@
   h2 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--light-lavender);
+    color: var(--grey);
   }
 
   .score-container {
@@ -37,7 +37,7 @@
     }
 
     .max-score {
-      color: var(--light-lavender);
+      color: var(--grey);
       font-size: 1rem;}
   }
 
@@ -47,13 +47,15 @@
     gap: 1rem;
 
     h3 {
-
       font-weight: 700;
       color: var(--);
     }
 
     p {
-      color: var(--light-lavender);
+      font-size: 1rem;
+      line-height: 140%;
+      color: var(--grey);
+      margin: 0 .5rem;
     }
   }
 }
