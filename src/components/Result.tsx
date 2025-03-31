@@ -2,6 +2,8 @@ import './Result.scss'
 
 export default function Result() {
   return (
-      <h1>Result</h1>
+    <div>
+      <h2>Result</h2>
+    </div>
   )
 }
