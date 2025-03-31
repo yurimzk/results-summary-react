@@ -1,4 +1,8 @@
 .app {
   background-color: var(--white);
   display: flex;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 600px;
 }
