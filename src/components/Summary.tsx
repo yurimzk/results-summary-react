@@ -3,7 +3,7 @@ import './Summary.scss'
 
 export default function Summary () {
   return (
-    <div className='summary-container'>
+    <section className='summary-container'>
       <h2>Summary</h2>
       <div className="summary-list">
         <div className='reaction-category'>
@@ -52,6 +52,6 @@ export default function Summary () {
         </div>
       </div>
       <button className='continue-btn'>Continue</button>
-    </div>
+    </section>
   )
 }

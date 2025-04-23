@@ -2,7 +2,7 @@ import './Result.scss'
 
 export default function Result() {
   return (
-    <div className='result-container'>
+    <section className='result-container'>
       <h2>Your Result</h2>
       <div className="score-container">
         <div className="score">
@@ -14,6 +14,6 @@ export default function Result() {
           <p>You scored higher than 65% of the people who have taken these tests.</p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
