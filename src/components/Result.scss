@@ -5,11 +5,13 @@
   padding: 2rem 2rem;
   text-align: center;
   border-radius: 2rem;
+  background: rgb(120, 87, 255);
+  background: linear-gradient(180deg, rgba(120, 87, 255, 1) 18%, rgba(46, 43, 233, 0.8729866946778712) 45%);
 
   h2 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--grey);
+    color: var(--light-lavender);
   }
 
   .score-container {
@@ -29,7 +31,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
+    background: var(--light-slate-blue);
+    background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 100%);
     .score-number {
       font-size: 3.5rem;
       font-weight: 700;
@@ -37,7 +40,7 @@
     }
 
     .max-score {
-      color: var(--grey);
+      color: var(--light-lavender);
       font-size: 1rem;}
   }
 
@@ -48,13 +51,13 @@
 
     h3 {
       font-weight: 700;
-      color: var(--);
+      color: var(--white);
     }
 
     p {
       font-size: 1rem;
       line-height: 140%;
-      color: var(--grey);
+      color: var(--light-lavender);
       margin: 0 .5rem;
     }
   }
